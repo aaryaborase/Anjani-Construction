@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../assets/bg.png";
 
 export default function Hero() {
   // 🔥 Reusable WhatsApp handler
@@ -13,7 +14,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="../src/assets/bg.png"
+          src={logo}
           alt="construction"
           className="w-full h-full object-cover"
         />
